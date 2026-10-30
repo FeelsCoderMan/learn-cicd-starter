@@ -17,7 +17,7 @@ func TestGetAPIKey(t *testing.T) {
 		{
 			name:       "valid ApiKey header",
 			authHeader: "ApiKey abc123",
-			wantKey:    "abc12", // TODO: fix it back
+			wantKey:    "abc123",
 		},
 		{
 			name:    "missing authorization header",
